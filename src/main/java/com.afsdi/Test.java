@@ -1,9 +1,11 @@
 package com.afsdi;
 
 class Test {
+    String helloWorld = "Hellow World";
     public String runTest() {
-        return "Test passed!!";
+        return helloWorld + " " + "Test passed!!";
     }
+
 
     public static void main(String[] args) {
         // write your code here
