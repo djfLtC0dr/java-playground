@@ -20,12 +20,4 @@ class Grade {
         } else stringReturn = "F";
         return stringReturn;
     }
-
-    public static void main(String[] args) {
-        if (args.length < 1 || Integer.parseInt(args[0]) < 0 || Integer.parseInt(args[0]) > 100) {
-            System.out.println("Please provide a valid grade between 0 & 100");
-        } else {
-            System.out.println(new Grade().evalGrade(Integer.parseInt(args[0])));
-        }
-    }
 }
